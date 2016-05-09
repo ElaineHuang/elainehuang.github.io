@@ -59,8 +59,11 @@ your_project_name/_harp/
 your_project_name/ 底下執行: `$ harp server _harp` 你就可以看見最基本的頁面了!
 
 > 補充: 在c9.io的環境中想要看到自己的demo site該怎麼做呢?
-你可以發現c9.io有幫你設定兩個變數，在terminal中可以看到，分別是`$PORT=8080`與`$IP=0.0.0.0`，在c9.io中你的port一定要開在8080($PORT)才會管用喔!
-所以你的指令會變成`$ harp server _harp --port $PORT`，並開啟網址: https://`vm_name`-`your_name`.c9users.io/
+你可以發現c9.io有幫你設定兩個環境變數，在terminal中可以看到，分別是`$PORT=8080`與`$IP=0.0.0.0`，在c9.io中你的port一定要開在8080($PORT)才會管用喔!
+所以你的指令會變成`$ harp server _harp --port $PORT`，並開啟網址: https://`vm_name`-`your_name`.c9users.io/ 
+
+> 補充: 如果我用的是Jekyll那我怎麼在[Cloud 9]上看到結果呢? 
+`$ bundle exec jekyll serve --host $IP --PORT $PORT` 記得設定host和port喔!
 
 ### Compile and Deploy
 
@@ -73,7 +76,21 @@ your_project_name/ 底下執行: `$ harp server _harp` 你就可以看見最基�
 
 <div markdown="0"><a href="http://elainehuang.github.io/BigFace/index.html" class="btn">Demo</a></div>
 
+### CreateJs - SoundJs
+
+如果在網站上想玩玩音樂，推薦[CreateJs] - SoundJs，他可以輕輕鬆鬆地播放音樂~~，demo site上的音樂就是使用了它喔~
+不過要注意一點是要等音樂downloads好後才能播喔~以下是一個簡單範例，loading好後才播放腳步聲的音樂:
+
+{% highlight js %}
+  createjs.Sound.registerSound("media/small_footsteps.mp3","footsteps");
+  createjs.Sound.on("fileload", loadHandler, this);
+  function loadHandler() {
+    createjs.Sound.play("footsteps");
+  }
+{% endhighlight %}
+
 [Harp home page]: http://harpjs.com/
 [Harp introduction]: http://kennethormandy.com/journal/start-a-blog-with-harp
 [stack overflow]: http://stackoverflow.com/questions/15718649/how-to-publish-a-website-made-by-node-js-to-github-pages
 [Cloud 9]: https://c9.io/
+[CreateJs]: http://www.createjs.com/
