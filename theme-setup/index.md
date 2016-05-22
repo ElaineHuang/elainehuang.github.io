@@ -4,7 +4,7 @@ title: Theme Setup
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
 modified: 2016-01-19
 image:
-  feature: so-simple-sample-image-5.jpg
+  feature: japan-1.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
