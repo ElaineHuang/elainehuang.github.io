@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My First Collection - BigFace
-excerpt: "My First Collection - 大臉仔"
+title: Deploying Harp Builds To Github Pages
+excerpt: "My First Collection - BigFace"
 modified: 2016-05-08
 categories: articles
 tags: [sample-post]
@@ -13,7 +13,7 @@ comments: true
 share: true
 ---
 
-最近終於擠出時間來整理自己的作品惹，這個作品是我大三的時候寫的，css的全部是自己造輪子，沒有套用任何framework，RWD也是自己刻的(流汗)，一整個很肌樂的作品...
+最近終於擠出時間來整理自己的作品惹，這個作品[BigFace]是我大三的時候寫的，css的全部是自己造輪子，沒有套用任何framework，RWD也是自己刻的(流汗)，一整個很肌樂的作品...
 我那時做這個作品時就只是最單純的html檔玩玩而已，但現在回頭看code真的寫超醜搭!!!但我現在也沒時間再改惹(裝死)，還想留時間碰碰React跟webpack咩!~(合理化懶蟲的行為)大家就將就將就點吧哈哈XD
 
 ### Harp
@@ -65,7 +65,7 @@ your_project_name/ 底下執行: `$ harp server _harp` 你就可以看見最基�
 > 補充: 如果我用的是Jekyll那我怎麼在[Cloud 9]上看到結果呢? 
 `$ bundle exec jekyll serve --host $IP --PORT $PORT` 記得設定host和port喔!
 
-### Compile and Deploy
+### Deploying to GitHub Pages
 
 1. Compile your Harp app: `$ harp compile _harp ./` 幫你生成靜態的HTML, css, js檔
 2. 接下來就可以Deploy到GitHub上去囉~!! `$ git add -A` `$ git commit -m 'Harp'` `$ git push` 
@@ -94,6 +94,7 @@ your_project_name/ 底下執行: `$ harp server _harp` 你就可以看見最基�
 [stack overflow]: http://stackoverflow.com/questions/15718649/how-to-publish-a-website-made-by-node-js-to-github-pages
 [Cloud 9]: https://c9.io/
 [CreateJs]: http://www.createjs.com/
+[BigFace]: https://github.com/ElaineHuang/BigFace
 
 <div id="disqus_thread"></div>
 <script>
