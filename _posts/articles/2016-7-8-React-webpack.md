@@ -177,9 +177,9 @@ Install React and React-dom(上線需要)
 
 其實這裡我也不太熟，我會就我知道的寫下來，順便發問一下好了XD 如果各路大神知道，還麻煩留言讓我長一下知識，我會很感謝你的!
  
-* devtool: cheap-module-eval-source-map，求救XDD
-* entry: js的進入點，每個進入點需設定來源，這邊設定了app/app.js當進入點，webpack/hot/dev-server應該就是跟webpack-dev-server會live reload有相關，
-再者webpack-dev-server/client?http://0.0.0.0:8080，如果拿掉的話console會一直出現warning:[WDS] Disconnected!，但LiveRelaod不受影響。
+* [devtool] <- 可按連結深入了解
+* entry: js的進入點，每個進入點需設定來源，這邊設定了app/app.js當進入點，webpack/hot/dev-server應該就是跟webpack-dev-server會HotReload有相關，
+再者webpack-dev-server/client?http://0.0.0.0:8080，如果拿掉的話console會一直出現warning:[WDS] Disconnected!，猜測是伺服器的進入點。
 * output: 設定路徑在build資料夾內，會打包產生一個bundle.js檔，跟Browserify做的事是一樣的
 * resolve 指定可以被 import 的文件檔名。比如 Example.jsx 這樣的文件就可以直接用 import Example from 'Example' 引用。
 * loaders 指定 babel-loader 編譯後檔名為 .js 或者 .jsx 的文件，這樣就可以在這類型的文件中自由使用 JSX 和 ES6 了。
@@ -472,6 +472,8 @@ package.json
 [Babel入門教程]: http://www.ruanyifeng.com/blog/2016/01/babel.html
 [Browserify]: http://browserify.org/
 [react-webpack-practice]: https://github.com/ElaineHuang/react-webpack-practice
+[devtool]: https://webpack.github.io/docs/configuration.html#devtool
+[神人Github]: https://github.com/elct9620
 
 <div id="disqus_thread"></div>
 <script>
@@ -495,3 +497,14 @@ package.json
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78158205-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

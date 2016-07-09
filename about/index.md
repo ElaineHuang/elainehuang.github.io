@@ -30,3 +30,14 @@ A beginner of web font-end development. Work in Hope Bay Technologies.<br><br>
 * 民宿網外包
 * 和沛科技測試實習生
 * 和沛科技前端工程師
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78158205-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
