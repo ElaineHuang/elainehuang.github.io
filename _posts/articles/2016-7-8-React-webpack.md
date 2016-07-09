@@ -33,7 +33,7 @@ share: true
 ### What is Webpack?
 
 <figure>
-	<img src="/images/webpack.png" alt="image"></a>
+	<a href="https://c8.staticflickr.com/9/8721/28111721471_5f676861c6_h.jpg"><img src="https://c8.staticflickr.com/9/8721/28111721471_5f676861c6_h.jpg" alt="image"></a>
 </figure>
 
 Webpack是所謂的模組打包工具，它可以幫你把各種文件(JS、JSX、coffee、less/sass...、圖片）打包成一系列的靜態資源來使用。
@@ -111,8 +111,9 @@ Install [npm] (套件管理工具)
 {% endraw %}
 就按照指令填上你要的就可以了，不知道要填什麼就按Enter, 它會自動升生成一個檔案
 <figure>
-	<img src="/images/npm-init.png" alt="image"></a>
+	<a href="https://c3.staticflickr.com/8/7287/27573932154_5b70cdc1a6_b.jpg"><img src="https://c3.staticflickr.com/8/7287/27573932154_5b70cdc1a6_b.jpg" alt="image"></a>
 </figure>
+
 {% raw %}
     {
       "name": "react-webpack-practice",
@@ -424,7 +425,7 @@ package.json
 再來是terminal一直出現這樣的錯誤:
 
 <figure>
-	<a href="https://c3.staticflickr.com/8/7605/28155224746_f60fefeb8d_b.jpg"><img src="/images/console-error.png" alt="image"></a>
+	<a href="https://c3.staticflickr.com/8/7605/28155224746_f60fefeb8d_b.jpg"><img src="https://c3.staticflickr.com/8/7605/28155224746_f60fefeb8d_b.jpg" alt="image"></a>
 </figure>
 
 後來發現沒加.babelrc，所以react和es2015的轉碼規則就沒有被用到
