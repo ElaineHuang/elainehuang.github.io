@@ -43,14 +43,13 @@ Webpack是所謂的模組打包工具，它可以幫你把各種文件(JS、JSX�
 而這個project還只是只有靜態的網站!!如果又加了一些需要跟Backend串的功能，則會變得又臭又長又複雜又難維護，
 所以你會需要用到一些需要編譯的語法來加速開發時間，例如:
 
-* HTML - 或許會想用Jade
 * CSS - 或許會想用Sass/Scss、less
 * JavaScript - ES6 用 Babel
 
 用了這些語法之後Browser當然是沒有支援，所以你會需要編譯器將這些語法轉譯成原生語法
 才能上production，以下是流程:
 
-* 各種編譯(ex. jade -> html, es6 -> es5 ...)
+* 各種編譯(ex. es6 -> es5, less -> css...)
 * 各種打包(ex. 把JS檔打包成bundle.js) 
 * uglify(把code壓縮，變得不可識別)
 
@@ -177,7 +176,14 @@ Install React and React-dom(上線需要)
 
 其實這裡我也不太熟，我會就我知道的寫下來，順便發問一下好了XD 如果各路大神知道，還麻煩留言讓我長一下知識，我會很感謝你的!
  
-* [devtool] <- 可按連結深入了解
+* [devtool] : 這裡列幾個參考連結，就我知道得來說
+當ES6轉成ES5輸出到瀏覽器時，你會需要知道原始碼(ES6)究竟是哪裡出錯，所以你會需要用SourceMap的技術來顯示原始的程式碼的行數，像是幫你的原始碼和輸出的ES5做標記對應，
+而devtool是設定產生SourceMap的方式。(問了神人後得知，[神人Github] )
+
+    * [Webpack devtool source map](http://cheng.logdown.com/posts/2016/03/25/679045)
+    * [webpack sourcemap多種模式的解釋](https://segmentfault.com/a/1190000004280859)
+    * [Beginner’s guide to Webpack](https://segmentfault.com/a/1190000004280859)
+    
 * entry: js的進入點，每個進入點需設定來源，這邊設定了app/app.js當進入點，webpack/hot/dev-server應該就是跟webpack-dev-server會HotReload有相關，
 再者webpack-dev-server/client?http://0.0.0.0:8080，如果拿掉的話console會一直出現warning:[WDS] Disconnected!，猜測是伺服器的進入點。
 * output: 設定路徑在build資料夾內，會打包產生一個bundle.js檔，跟Browserify做的事是一樣的
@@ -474,7 +480,6 @@ package.json
 [react-webpack-practice]: https://github.com/ElaineHuang/react-webpack-practice
 [devtool]: https://webpack.github.io/docs/configuration.html#devtool
 [神人Github]: https://github.com/elct9620
-
 <div id="disqus_thread"></div>
 <script>
     /**
