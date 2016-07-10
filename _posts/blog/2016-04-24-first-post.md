@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Post - Oral Persentation"
+title: "First Post - Oral Presentation"
 modified:
 categories: blog
 excerpt:
@@ -13,10 +13,10 @@ date: 2016-04-23T15:39:55-04:00
 首PO，總覺得該寫寫Blog來記錄一下大事件，包括學到了什麼，不管是技術上還是口語表達上，
 現在終於有時間來整理一下自己的思緒了。
 
-### Oral Persentation
+### Oral Presentation
 
 開始工作後漸漸明白口語表達到底有多重要，大學的時候參加實習商店，記得那時我們行銷組的組長，
-他入社時的演講至今還歷歷在目，我相信很多人是因為他的精彩的persentation才入社的，
+他入社時的演講至今還歷歷在目，我相信很多人是因為他的精彩的Presentation才入社的，
 擁有這樣的口才絕對是練出來的，而且能夠讓一個人更有魅力，這也是我所缺乏的，
 公司裡的同事也有口語表達非常好的工程師，講話清楚有邏輯、有自信，你會感覺到跟他說話，
 一定要想清楚免得被打臉惹。當然如果跟高階主管講話更是，一不注意就被牽著鼻子走了，
