@@ -95,10 +95,10 @@ Install [npm] (套件管理工具)
 * npm: `3.10.3`
 * webpack: `1.13.1`
 
-安裝好後我們建一個資料夾叫webpack-react-practive好了
+安裝好後我們建一個資料夾叫webpack-react-practice好了
 {% raw %}
-    $ mkdir webpack-react-practive
-    $ cd webpack-react-practive
+    $ mkdir webpack-react-practice
+    $ cd webpack-react-practice
 {% endraw %}
 
 ### Package.json
