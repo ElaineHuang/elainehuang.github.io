@@ -177,7 +177,7 @@ Install React and React-dom(上線需要)
 其實這裡我也不太熟，我會就我知道的寫下來，順便發問一下好了XD 如果各路大神知道，還麻煩留言讓我長一下知識，我會很感謝你的!
  
 * [devtool] : 這裡列幾個參考連結，就我知道得來說
-當ES6轉成ES5輸出到瀏覽器時，你會需要知道原始碼(ES6)究竟是哪裡出錯，所以你會需要用SourceMap的技術來顯示原始的程式碼的行數，像是幫你的原始碼和輸出的ES5做標記對應，
+當ES6轉成ES5輸出到瀏覽器時，你會需要知道原始碼(ES6)究竟是哪裡出錯，所以你會需要用SourceMap來顯示原始的程式碼的行數，像是幫你的原始碼和輸出的ES5做標記對應，
 而devtool是設定產生SourceMap的方式。(問了神人後得知，[神人Github] )
 
     * [Webpack devtool source map](http://cheng.logdown.com/posts/2016/03/25/679045)
