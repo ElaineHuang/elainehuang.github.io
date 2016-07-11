@@ -43,7 +43,7 @@ date: 2016-04-23T15:39:55-04:00
 持續往訓練口語表達前進中...希望下次能分享技術相關的，啊啊啊應該要趕快找時間學reactJs...
 
 [Don't make me think]: http://www.books.com.tw/products/0010651534
-[slide share]: https://drive.google.com/open?id=1n983Pj0agmIf6NcDMSB3FKhSvio9yILMzj7zE3UDcXI
+[slide share]: https://drive.google.com/open?id=0B0ERPMAlLyRMTk9JSG43enRGX3c
 
 <div id="disqus_thread"></div>
 <script>
