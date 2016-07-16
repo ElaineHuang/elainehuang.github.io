@@ -21,8 +21,9 @@ share: true
 
 ### Reference
 
-* [從無到有一]
-* [從無到有二]
+* [從無到有一](https://medium.com/html-test/%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89%E5%BB%BA%E7%AB%8B-webpack-%E8%A8%AD%E5%AE%9A%E6%AA%94-%E4%B8%80-42fbc76a2d37#.nz3liwypv)
+* [從無到有二](https://medium.com/html-test/%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89%E5%BB%BA%E7%AB%8B-webpack-%E8%A8%AD%E5%AE%9A%E6%AA%94-%E4%BA%8C-%E8%A8%AD%E5%AE%9A%E6%A8%A3%E5%BC%8F-61c210d63411#.eir55us6h)
+* [從無到有三](https://medium.com/html-test/%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89%E5%BB%BA%E7%AB%8B-webpack-%E8%A8%AD%E5%AE%9A%E6%AA%94-%E4%B8%89-%E9%80%B2%E9%9A%8E%E8%A8%AD%E5%AE%9A-d3d7583e61cf#.xvf2wmcwo)
 * [Gitbook - React入門]
 * [Gitbook - Webpack]
 * [webpack-howto]
@@ -463,9 +464,6 @@ package.json
 謝謝大家~~第一次寫比較長的技術文，希望我以後可以堅持下去，你的留言就是我的動力來源喔!!
 也希望如果大家看到有寫錯或是不清楚的地方留言糾正我!我會非常感激你的!! 我也還是初學者而已> < 甘溫~!
 
-
-[從無到有一]: https://medium.com/html-test/%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89%E5%BB%BA%E7%AB%8B-webpack-%E8%A8%AD%E5%AE%9A%E6%AA%94-%E4%B8%80-42fbc76a2d37#.nz3liwypv
-[從無到有二]: https://medium.com/html-test/%E5%BE%9E%E7%84%A1%E5%88%B0%E6%9C%89%E5%BB%BA%E7%AB%8B-webpack-%E8%A8%AD%E5%AE%9A%E6%AA%94-%E4%BA%8C-%E8%A8%AD%E5%AE%9A%E6%A8%A3%E5%BC%8F-61c210d63411#.eir55us6h
 [Gitbook - React入門]: https://hulufei.gitbooks.io/react-tutorial/content/index.html
 [Gitbook - Webpack]: https://fakefish.github.io/react-webpack-cookbook/Introduction-to-Webpack.html
 [webpack-howto]: https://github.com/petehunt/webpack-howto/blob/master/README-zh.md
