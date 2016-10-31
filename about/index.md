@@ -9,17 +9,20 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-A beginner of web front-end development. Work in Hope Bay Technologies.<br><br>
-對前端領域懷有莫大的熱情，喜歡介面、喜歡設計、對炫麗的視覺效果為之嚮往，對UI/UX也非常有興趣，
-只要是關於網站相關的技術知識都非常樂意學習。
+A junior of web front-end development. Work in Hope Bay Technologies.<br><br>
+對前端領域懷有莫大的熱情，喜歡介面、喜歡設計、對炫麗的視覺效果為之嚮往，
+對UI/UX也非常有興趣，喜歡參與各種技術活動與分享會，
+只要是關於網站相關的技術知識都非常樂意學習 :)
 
 ## Skills:
 
 * HTML - JADE
-* CSS - SASS, SCSS
+* CSS - SASS, SCSS, PostCSS
 * Javascript - ES5, ES6
-* framework - AngularJs, jQuery, jQuery UI, Bootstrap, Angular Material
+* framework - React, Redux, JSX, Belle, AngularJs, jQuery, jQuery UI, Bootstrap, Angular Material
+* Webpack
 * PHP, MySQL
+* Git
 * Responsive Web Design
 * Photoshop
 
