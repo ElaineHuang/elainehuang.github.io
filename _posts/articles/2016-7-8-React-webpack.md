@@ -6,7 +6,7 @@ modified: 2016-07-08
 categories: articles
 tags: [sample-post]
 image:
-  feature: japan.jpg
+  feature: japan-2.jpg
   credit: WeGraphics
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 comments: true
