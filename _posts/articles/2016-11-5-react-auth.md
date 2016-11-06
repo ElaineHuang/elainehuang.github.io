@@ -142,7 +142,9 @@ reducers/user.js:
 <script async class="speakerdeck-embed" data-slide="18" data-id="c8317f4038ce013138be5694540c4f3c" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ##### Click Login button
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/4R4Fp"><a href="//imgur.com/4R4Fp"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<figure>
+	<a href="http://i.imgur.com/YFckPtt.png"><img src="http://i.imgur.com/YFckPtt.png" alt="image"></a>
+</figure>
 敲backend會導到這個網址，client ID與secret key不會大辣辣的show在網址上(不能被user知道，secret同password)，會進行一些加密與處理(google規定的)再送給google做認證，認證這個client是已註冊過的，
 並檢查entry point url與endpoint url有沒有一致，檢查OK進到下一步
 
