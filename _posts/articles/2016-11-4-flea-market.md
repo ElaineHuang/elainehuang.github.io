@@ -120,15 +120,20 @@ RWD完整支援手機喔!!
 
 * [React Redux-Auth 學習筆記](http://elainehuang.github.io/so-simple-theme/articles/FleaMarket-online/)
 
+賣一下g0v神人隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)
+
+> frontend repo: [https://github.com/FuBoTeam/fubo-flea-market.git](https://github.com/FuBoTeam/fubo-flea-market.git)
+
 ### Backend - graphql
 
 我主要介紹Frontend，Rails只知道他們用了graphql-ruby哈哈哈，只好期盼Orga大神寫技術文啦~
 
-* [Flea Market backend](https://github.com/FuBoTeam/flea-backend.git)
 * [graphql-ruby](https://github.com/rmosolgo/graphql-ruby)
 
 附上神人[Orga Shih Github](https://github.com/sinorga)，貌似是想練習用graphql才跳坑XD
 不是我在說R!!他超罩搭!!神人隊友之我都要哭了。
+
+> backend repo: [https://github.com/FuBoTeam/flea-backend.git](https://github.com/FuBoTeam/flea-backend.git)
 
 [劉邦皓]: https://www.facebook.com/ben196888
 [Orga Shih]: https://www.facebook.com/sinorga
