@@ -4,7 +4,7 @@ title: React Redux-Auth 學習筆記
 excerpt: "Flea Market 拼裝車part1"
 modified: 2016-07-08
 categories: articles
-tags: [sample-post]
+tags: [Redux Auth]
 image:
   feature: japan-3.jpg
   credit: WeGraphics
@@ -43,8 +43,8 @@ Flea Market的example:
 {% endhighlight %}
 
 ##### 踩雷
-* 之所以加currentLocation是為了要解決手機登入時，有些手機的OAuth2.0登入視窗無法正常關閉，會造成登入失敗的問題。
-* clientOnly與cleanSession的設定是因為我們發現網站重新整理時，他還需要再次登入，但是看Cookie是有被存下來的。翻redux-auth的source code發現問題在於它會destroySession!!所以我們必須傳入這兩個設定值就能修復這個問題。
+* 之所以加`currentLocation`是為了要解決手機登入時，有些手機的OAuth2.0登入視窗無法正常關閉，會造成登入失敗的問題。
+* `clientOnly`與`cleanSession`的設定是因為我們發現網站重新整理時，他還需要再次登入，但是看Cookie是有被存下來的。翻redux-auth的source code發現問題在於它會destroySession!!所以我們必須傳入這兩個設定值就能修復這個問題。
 
 [redux-auth configure.js]:
 
@@ -133,9 +133,13 @@ reducers/user.js:
 ### Google OAuth2.0
 
 這是我對於整個Google OAuth2.0整個流程的理解，如果有錯誤的地方歡迎留言指證喔!謝謝!
+建議先看[簡單易懂的OAuth2]，會比較有完整的概念!這邊簡單提一下而已
+
+<script async class="speakerdeck-embed" data-slide="18" data-id="c8317f4038ce013138be5694540c4f3c" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ##### Click Login button
-敲backend會導到這個網址，client ID與secret key不會大辣辣的show在網址上(不能被user知道)，會進行一些加密與處理(google規定的)再送給google做認證，認證這個client是已註冊過的，
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/4R4Fp"><a href="//imgur.com/4R4Fp"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+敲backend會導到這個網址，client ID與secret key不會大辣辣的show在網址上(不能被user知道，secret同password)，會進行一些加密與處理(google規定的)再送給google做認證，認證這個client是已註冊過的，
 並檢查entry point url與endpoint url有沒有一致，檢查ＯＫ進到下一步
 
 {% raw %}
@@ -171,7 +175,7 @@ backend或許會自己再去敲google OAuth確認給的認證是否正確
 backend 產生 new token
 
 ##### After redirect
-backend將資料帶回來給Frontend, Frontend把cliend_id, expiry, auth_token, uuid存到Cookie,
+backend將new token帶回來給Frontend, Frontend把client, expiry, auth_token, uuid存到Cookie,
 並且再call validation_token api 在去向backend認證他自己發出去的token是否符合，認證過了backend會再把uid傳回來，frontend則會把backend回的uid塞進header和redux state裡
 
 {% raw %}
@@ -183,6 +187,11 @@ backend將資料帶回來給Frontend, Frontend把cliend_id, expiry, auth_token, 
     & expiry=1479197813
     & uid=111593213638941768034
 {% endraw %}
+
+只要backend的token拿回來了並存在cookie裡，之後的傳遞資料就跟OAuth Server沒關係了，就是我們backend自己發出去的的token自己認證而已。
+每當Login後Refresh，redux-auth會去拿Cookie裡的資料塞好`client` & `access-token`在header，
+去call backend的validation token api，backend會回uid回來，並把response header都塞好(`client & access-token & uid`)，
+這時的`redux-auth fetch`已經塞好認證所需的資料了，這時就可以用`fetch`來call需要登入的api惹。
 
 [簡單易懂的OAuth2]:https://speakerdeck.com/chitsaou/jian-dan-yi-dong-de-oauth-2-dot-0
 [redux-auth]: https://github.com/lynndylanhurley/redux-auth.git
