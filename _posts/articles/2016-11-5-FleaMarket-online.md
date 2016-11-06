@@ -13,7 +13,7 @@ comments: true
 share: true
 ---
 
-跳蚤市場的實作用了非常多不同的libary, 即所謂的拼裝車，
+跳蚤市場的實作用了非常多不同的libary，即所謂的拼裝車，
 其中我們為了實作Google OAuth2.0登入，而用了[redux-auth]，非常方便地幫我們做掉了許多事，
 完整的google OAuth2的流程可以參考[簡單易懂的OAuth2]，寫得極為詳盡!超級推薦!
 這次就來說說我們的實作流程並且簡單的記錄下來。
@@ -68,8 +68,12 @@ Flea Market的example:
 />
 {% endhighlight %}
 
-Fetch的access-token, uid, client都塞好了，再來我們要再去跟我們自己的api要user data。
-user本來就是登入狀態下必須去要user data, 與user從未登入->登入也必須去要user data。
+Fetch的header `access-token, uid, client` 都塞好了，再來我們要再去跟我們自己的api要user data。
+分為兩種情況:
+
+* user已經登入過的狀態下去要user data。
+* user未登入->登入也必須去要user data。
+
 Header/index.js:
 {% highlight js %}
   componentWillMount() {
@@ -140,7 +144,7 @@ reducers/user.js:
 ##### Click Login button
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/4R4Fp"><a href="//imgur.com/4R4Fp"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 敲backend會導到這個網址，client ID與secret key不會大辣辣的show在網址上(不能被user知道，secret同password)，會進行一些加密與處理(google規定的)再送給google做認證，認證這個client是已註冊過的，
-並檢查entry point url與endpoint url有沒有一致，檢查ＯＫ進到下一步
+並檢查entry point url與endpoint url有沒有一致，檢查OK進到下一步
 
 {% raw %}
     https://accounts.google.com/AccountChooser
@@ -175,7 +179,7 @@ backend或許會自己再去敲google OAuth確認給的認證是否正確
 backend 產生 new token
 
 ##### After redirect
-backend將new token帶回來給Frontend, Frontend把client, expiry, auth_token, uuid存到Cookie,
+backend將new token帶回來給Frontend, Frontend把client, expiry, auth_token, uid存到Cookie,
 並且再call validation_token api 在去向backend認證他自己發出去的token是否符合，認證過了backend會再把uid傳回來，frontend則會把backend回的uid塞進header和redux state裡
 
 {% raw %}
