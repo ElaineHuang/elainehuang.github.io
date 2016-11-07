@@ -120,7 +120,7 @@ RWD完整支援手機喔!!
 
 * [React Redux-Auth 學習筆記](http://elainehuang.github.io/so-simple-theme/articles/react-auth/)
 
-賣一下g0v隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)，歡迎追蹤！XD
+賣一下隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)，歡迎追蹤！XD
 
 > frontend repo: [https://github.com/FuBoTeam/fubo-flea-market.git](https://github.com/FuBoTeam/fubo-flea-market.git)
 
