@@ -40,7 +40,7 @@ share: true
 加入群組的概念...有做出來再來po文XD 我們是10/20舉辦跳蚤市場，所以現在所有的商品都已經結標了，
 圖片都是半透明。
 
-<div markdown="0"><a href="http://flea.fubotech.com.tw/" class="btn">Demo</a></div>
+<div markdown="0"><a href="http://flea.hopebaytech.com/" class="btn">Demo</a></div>
 
 User賣的商品頁:
 <figure>
