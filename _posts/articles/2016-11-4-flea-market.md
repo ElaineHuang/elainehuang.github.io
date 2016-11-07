@@ -101,7 +101,7 @@ RWD完整支援手機喔!!
 很好，拼裝車來惹，難免會發生銜接困難的問題，像是`redux`和`Relay`就不太適合擺一起，
 所以我們研究許久之後決定換掉!還好有大神[劉邦皓]解決了這個問題，
 找到另一個`redux-graphql-middleware`，他甚至已經練到準備要貢獻回去的程度了，簡直是猛!
-公司跳蚤市場的舉辦日期比我們預期早了很多，所以我們做到後面還蠻趕的，用了自己不熟悉的技術，
+公司跳蚤市場的舉辦日期比我們預期早了很多，再加上我們大部分做的時間都是在假日或下班，所以做到後面還蠻趕的，用了自己不熟悉的技術，
 再加上framework互相配來配去的技術文章其實還不多，所以各種踩雷，還好有神一般的隊友!
 差點要為deadline捏把冷汗!
 
@@ -120,7 +120,7 @@ RWD完整支援手機喔!!
 
 * [React Redux-Auth 學習筆記](http://elainehuang.github.io/so-simple-theme/articles/FleaMarket-online/)
 
-賣一下g0v神人隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)
+賣一下g0v隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)，歡迎追蹤！XD
 
 > frontend repo: [https://github.com/FuBoTeam/fubo-flea-market.git](https://github.com/FuBoTeam/fubo-flea-market.git)
 
@@ -130,7 +130,7 @@ RWD完整支援手機喔!!
 
 * [graphql-ruby](https://github.com/rmosolgo/graphql-ruby)
 
-附上神人[Orga Shih Github](https://github.com/sinorga)，貌似是想練習用graphql才跳坑XD
+[Orga Shih]貌似是想練習用graphql才跳坑XD
 不是我在說R!!他超罩搭!!神人隊友之我都要哭了。
 
 > backend repo: [https://github.com/FuBoTeam/flea-backend.git](https://github.com/FuBoTeam/flea-backend.git)
