@@ -118,7 +118,7 @@ RWD完整支援手機喔!!
 
 之後有時間會慢慢補上學習筆記:
 
-* [React Redux-Auth 學習筆記](http://elainehuang.github.io/so-simple-theme/articles/FleaMarket-online/)
+* [React Redux-Auth 學習筆記](http://elainehuang.github.io/so-simple-theme/articles/react-auth/)
 
 賣一下g0v隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)，歡迎追蹤！XD
 
