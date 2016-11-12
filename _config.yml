@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Site Title
+title: Elaine personal website
 locale: en_US
-description: Describe your website here.
+description: New beginning
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+url: http://elainehuang.github.io
 
 # Jekyll configuration
 
@@ -48,15 +48,15 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  email: you@email.com
+  name: Elaine
+  avatar: elaine.jpg
+  email: starbrave1313677@gmail.com
   disqus-shortname:
   twitter: #username
-  facebook: #username
-  github: #username
+  facebook: profile.php?id=100002362302004
+  github: ElaineHuang
   stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: elaine-huang-05a51a104?trk=nav_responsive_tab_profile_pic
   instagram: #username
   flickr: #username
   tumblr: #username
