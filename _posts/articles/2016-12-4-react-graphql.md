@@ -199,7 +199,7 @@ share: true
 ##### Reducer
 
 isFeched表示從defaultState(false)到有資料就會一直為true(原本無資料再Fetch的期間UI會顯示轉轉摩天輪)
-而isFetching則是原本有沒有資料，只要call API資料還沒回來就會是true。(UI會顯示progress bar)
+而isFetching則是不管原本有沒有資料，只要call API資料還沒回來就會是true。(UI會顯示progress bar)
 
 {% highlight js %}
     const defaultState = {
