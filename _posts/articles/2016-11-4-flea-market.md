@@ -118,7 +118,8 @@ RWD完整支援手機喔!!
 
 之後有時間會慢慢補上學習筆記:
 
-* [React Redux-Auth 學習筆記](http://elainehuang.github.io/so-simple-theme/articles/react-auth/)
+* [React Redux-Auth 學習筆記](http://blog.elaine.me/articles/react-auth/)
+* [React Redux 串 graphQL 學習筆記](http://blog.elaine.me/articles/react-graphql/)
 
 賣一下隊友[劉邦皓Github](https://github.com/orgs/FuBoTeam/people/ben196888)，歡迎追蹤！XD
 
