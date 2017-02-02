@@ -4,7 +4,7 @@ title: React Redux-Auth 學習筆記
 excerpt: "Flea Market 拼裝車part1"
 modified: 2016-07-08
 categories: articles
-tags: [Redux Auth]
+tags: [Redux Auth, React]
 image:
   feature: japan-3.jpg
   credit: WeGraphics

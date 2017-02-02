@@ -4,7 +4,7 @@ title: Webpack React 入門筆記
 excerpt: "學習筆記 - Webpack React 基本工作流程"
 modified: 2016-07-08
 categories: articles
-tags: [sample-post]
+tags: [Webpack, React, Babel, npm]
 image:
   feature: japan-2.jpg
   credit: WeGraphics

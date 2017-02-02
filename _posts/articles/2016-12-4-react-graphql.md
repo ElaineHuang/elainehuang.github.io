@@ -4,7 +4,7 @@ title: React Redux 串 graphQL 學習筆記
 excerpt: "Flea Market 拼裝車part2"
 modified: 2016-07-08
 categories: articles
-tags: [Redux graphQL]
+tags: [Redux graphQL, React]
 image:
   feature: pic-1.jpg
 comments: true

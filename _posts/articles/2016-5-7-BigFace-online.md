@@ -4,7 +4,7 @@ title: Deploying Harp Builds To Github Pages
 excerpt: "My First Collection - BigFace"
 modified: 2016-05-08
 categories: articles
-tags: [sample-post]
+tags: [Harp]
 image:
   feature: japan.jpg
   credit: WeGraphics
