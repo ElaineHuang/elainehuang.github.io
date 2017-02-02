@@ -2,7 +2,7 @@
 layout: post
 title: Automation Test - Nightwatch
 excerpt: "Nightwatch 入門筆記"
-modified: 2016-07-08
+modified: 2017-02-02
 categories: articles
 tags: [Nightwatch, Automation Test]
 image:
@@ -262,7 +262,35 @@ Use it.
     browser.goPage();
 {% endhighlight %}
 
-如果有更好的寫法，歡迎交流討論喔!謝謝!
+##### Add before(), after() hooks
+
+有點像Mocha，Nighwatch自己有支援這樣的語法，
+一開始就執行登入，或是一開始要導到某個url。
+
+> The done function must be called as the last step when the async operation completes. Not calling it will result in a timeout error.
+
+done()這個用法其實雷我很多次了，這是我最不熟悉的用法，後來發現在關閉瀏覽器後也要在執行一次done，
+不然一樣會造成Timeout Error。
+
+最常見的用法如下:
+
+{% highlight js %}
+    before(browser) {
+        browser
+            .resizeWindow(1920, 1080)
+            .login(username, password);
+    },
+    afterEach(browser, done) {
+        done();
+    },
+    after(browser, done) {
+        browser.end(() => {
+            done();
+        });
+    }
+{% endhighlight %}
+
+如果有更好的寫法，歡迎交流討論喔!謝謝!再次感謝[線上讀書會](https://www.facebook.com/groups/906048196159262/)。
 
 <div id="disqus_thread"></div>
 <script>
