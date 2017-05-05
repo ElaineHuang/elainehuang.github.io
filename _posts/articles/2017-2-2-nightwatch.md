@@ -321,7 +321,7 @@ done()這個用法其實雷我很多次了，這是我最不熟悉的用法，�
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-78158205-1', 'auto');
+  ga('create', 'UA-88441714-1', 'auto');
   ga('send', 'pageview');
 
 </script>
