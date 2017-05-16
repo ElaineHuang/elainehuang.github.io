@@ -40,7 +40,7 @@ date: 2016-04-23T15:39:55-04:00
 我之前報告之類的也會備稿(是非常詳細的那一種)，每次都會相當花時間，但後來有人建議我提字就好了，
 這樣才能訓練到反應，我覺得蠻有道理的，共勉之。
 
-持續往訓練口語表達前進中...希望下次能分享技術相關的，啊啊啊應該要趕快找時間學reactJs...
+持續往訓練口語表達前進中...希望下次能分享技術相關的，啊啊啊應該要趕快找時間學React...
 
 [Don't make me think]: http://www.books.com.tw/products/0010651534
 [slide share]: http://www.slideshare.net/ElaineHuang9/dont-make-me-think-64092488
