@@ -8,9 +8,10 @@ image:
 ---
 
 A web front-end development. Work in Hope Bay Technologies.<br><br>
-對前端領域懷有莫大的熱情，喜歡介面、熱愛設計、對炫麗的視覺效果為之嚮往， 
-對UI/UX也非常有興趣，重視與設計師的交流與溝通、關心使用者體驗、注重軟體開發流程，
-常常參與各種技術活動與分享會，只要是關於網站相關的技術與知識都非常樂意學習。
+Passionate about front-end techniques. In love with interface and design, 
+inspired by brilliant visual effect. Interested in UI/UX, emphasis on designers of communication, concern with user experience, care with software development process. 
+Often participate in a variety of technical activities and sharing sessions, 
+and desire to learn web techniques and knowledge.
 
 ## Skills:
 
@@ -26,12 +27,12 @@ A web front-end development. Work in Hope Bay Technologies.<br><br>
 
 ## Experiences:
 
-* 泰樂科技軟體 Taroko Software 前端工程師 Feb 6 - Now
-* 和沛科技 Hopebay 前端工程師, Jul 2015 - Jan 2017
-* 和沛科技 Hopebay 自動化測試QA, Jul 2015
-* 和沛科技 Hopebay 擔任QA實習生 & 前端實習生, Jan 2015 - Jun 2015
-* 民宿網外包, Oct 2014 - Jan 2015
-* 在勤崴國際科技 KingwayTek 擔任前端實習生, Jul 2014 - Aug 2014
+* 泰樂科技軟體 Taroko Software Front-End Developer Feb 6 - Now
+* 和沛科技 Hopebay Front-End Developer, Jul 2015 - Jan 2017
+* 和沛科技 Hopebay QA (Automation Test), Jul 2015
+* 和沛科技 Hopebay QA Intern & Front-End Intern, Jan 2015 - Jun 2015
+* B&B website of outsourcing case, Oct 2014 - Jan 2015
+* 勤崴國際科技 KingwayTek Front-End Intern, Jul 2014 - Aug 2014
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
