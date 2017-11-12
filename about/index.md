@@ -26,7 +26,7 @@ A web front-end development. Work in Hope Bay Technologies.<br><br>
 
 ## Experiences:
 
-* 泰樂科技軟體 Taroko Software 前端工程師 Feb 2 - Now
+* 泰樂科技軟體 Taroko Software 前端工程師 Feb 6 - Now
 * 和沛科技 Hopebay 前端工程師, Jul 2015 - Jan 2017
 * 和沛科技 Hopebay 自動化測試QA, Jul 2015
 * 和沛科技 Hopebay 擔任QA實習生 & 前端實習生, Jan 2015 - Jun 2015

@@ -72,7 +72,7 @@ Fetch的header `access-token, uid, client` 都塞好了，再來我們要再去�
 分為兩種情況:
 
 * user已經登入過的狀態下去要user data。
-* user未登入->登入也必須去要user data。
+* user未登入並點擊登入也必須去要user data。
 
 Header/index.js:
 {% highlight js %}
@@ -197,7 +197,7 @@ backend將new token帶回來給Frontend, Frontend把client, expiry, auth_token, 
 只要backend的token拿回來了並存在cookie裡，之後的傳遞資料就跟OAuth Server沒關係了，就是我們backend自己發出去的的token自己認證而已。
 每當Login後Refresh，redux-auth會去拿Cookie裡的資料塞好`client` & `access-token`在header，
 去call backend的validation token api，backend會回uid回來，並把response header都塞好(`client & access-token & uid`)，
-這時的`redux-auth fetch`已經塞好認證所需的資料了，這時就可以用`fetch`來call需要登入的api惹。
+這時的`redux-auth fetch`已經塞好認證所需的資料了，這時就可以用`fetch`來call需要登入的api了。
 
 [簡單易懂的OAuth2]:https://speakerdeck.com/chitsaou/jian-dan-yi-dong-de-oauth-2-dot-0
 [redux-auth]: https://github.com/lynndylanhurley/redux-auth.git

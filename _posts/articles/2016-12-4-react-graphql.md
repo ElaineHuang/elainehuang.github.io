@@ -20,7 +20,7 @@ share: true
 
 ### Reference
 
-* [Flea Market Demo Site](http://flea.hopebaytech.com/): 因為綁了公司email所以登入會失敗喔!物品已截標
+* [Flea Market Demo Site](http://flea.hopebaytech.com/)
 * [flea-market-frontend]
 * [flea-market-backend](https://github.com/FuBoTeam/flea-backend.git)
 * [Redux GraphQL Middleware]

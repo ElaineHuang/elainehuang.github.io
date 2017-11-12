@@ -13,14 +13,14 @@ comments: true
 share: true
 ---
 
-最近終於擠出時間來整理自己的作品惹，這個作品[BigFace]是我大三的時候寫的，css全部是自己造輪子，沒有套用任何framework，RWD也是自己刻的(流汗)，一整個很肌樂的作品...(不過動畫是animate.css嘿嘿)
-我那時做這個作品時就只是最單純的html檔玩玩而已，但現在回頭看code真的寫超醜搭!!!但我現在也沒時間再改惹(裝死)，還想留時間碰碰React跟webpack咩!~(合理化懶蟲的行為)大家就將就將就點吧哈哈XD
+最近終於擠出時間來整理自己的作品惹，這個作品[BigFace]是我大三的時候寫的，css全部是自己造輪子，沒有套用任何framework，RWD也是自己刻的(流汗)，一整個很肌樂的作品...(不過動畫是animate.css)
+我那時做這個作品時就只是最單純的html檔玩玩而已，但現在回頭看code真的寫超醜搭!!!但我現在也沒時間再改惹(裝死)，還想留時間碰碰React跟webpack!~(合理化懶蟲的行為)大家就將就將就點吧哈哈XD
 
 ### Harp
 
-首先來介紹Harp這個東東，首先為什麼會找到這個tool是因為，我的作品在local端看起來完全沒有問題，
-但推到github的gh-pages就壞掉啦~!!首先是音樂出不來，再來是破圖的問題，但我其實不曉得到底出了什麼問題，
-畢竟在local看是好好的呀~後來google了一下發現Harp這個簡單的tool，Harp其實並不有名，但我自己覺得很好用啦~
+首先來介紹Harp這個工具，首先為什麼會找到這個tool是因為，我的作品在local端看起來完全沒有問題，
+但推到github的gh-pages就炸掉了!!首先是音樂出不來，再來是破圖的問題，但我其實不曉得到底出了什麼問題，
+畢竟在local看是好好的~後來google了一下發現Harp這個簡單的tool，Harp其實並不有名，但我自己覺得很好用啦~
 簡單的來說Harp就是:
 
 > The static web server with built-in preprocessing
@@ -32,7 +32,7 @@ share: true
 > Preprocessors are built-in
 Harp already includes the preprocessors you love: Markdown, Jade, EJS, LESS, Stylus, Sass and CoffeeScript, are all available without any configuration or setup necessary.
 
-是不是超級方便!!他支援Jade, LESS, SASS正好是我需要DER
+是不是超級方便!!他支援Jade, LESS, SASS正好是我需要的
 就決定是你惹!!最重要的是可以Compile後Deploy到github把demo site起起來
 
 > Whether you’re making a GitHub project page, or a mobile application using Apache Cordova/PhoneGap, you can easily compile your code to HTML, CSS & JavaScript and host it anywhere.
