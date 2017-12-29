@@ -7,7 +7,7 @@ image:
   feature: profile-background.jpg
 ---
 
-A web front-end development. Work in Hope Bay Technologies.<br><br>
+A web front-end development. Work in Taroko Software.<br><br>
 Passionate about front-end techniques. In love with interface and design, 
 inspired by brilliant visual effect. Interested in UI/UX, emphasis on designers of communication, concern with user experience, care with software development process. 
 Often participate in a variety of technical activities and sharing sessions, 
